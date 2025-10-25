@@ -1,0 +1,143 @@
+
+
+body {
+    margin: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: #f7f5f5;
+
+  }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f5f5;
+    color: #464343;
+    padding: 20px 110px;
+    font-size: 18px;
+  }
+
+  .logo img {
+    width: 250px; /* Ajusta el tamaño del logo según tu necesidad */
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding-top: 30px;
+  }
+
+  .nav-links li a {
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.3s;
+  }
+
+  .nav-links li a:hover {
+    color: #006b10;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+main{
+   padding: 2em;
+}
+
+.footer {
+    position: relative;
+    background-color: rgb(80, 80, 80);
+    color:aliceblue;
+    text-align:center;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 250px;
+    font-size: large;
+    
+  }
+
+  body {
+    margin: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: #f7f5f5;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center;
+    background-color: #f7f5f5;
+    color: #464343;
+    padding: 10px; /* Ajusta el relleno según sea necesario */
+    font-size: 16px; /* Tamaño de fuente reducido */
+  }
+
+  .logo img {
+    width: 150px; /* Reducido el tamaño del logo */
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    flex-direction: column; /* Apila los enlaces en móvil */
+    gap: 10px;
+    margin: 0;
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  .nav-links li a {
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.3s;
+  }
+
+  .nav-links li a:hover {
+    color: #006b10;
+  }
+
+  /* Resto de tu CSS para dispositivos móviles aquí */
+
+  .profesional {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px; /* Reducido el margen */
+    padding: 10px; /* Reducido el relleno */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .profesional img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .profesional h2 {
+    font-size: 18px; /* Tamaño de fuente reducido */
+    margin-top: 5px; /* Espacio reducido en la parte superior */
+  }
+
+  .footer {
+    position: relative;
+    background-color: rgb(80, 80, 80);
+    color: aliceblue;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: auto;
+    font-size: medium; /* Tamaño de fuente reducido */
+  }
+
